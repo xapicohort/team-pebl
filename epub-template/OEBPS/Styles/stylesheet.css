@@ -1,0 +1,43 @@
+@namespace h "http://www.w3.org/1999/xhtml";
+.mainbody {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 5pt;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    margin-top: 5pt;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: justify;
+    }
+.paragraphtext {
+    display: block;
+    }
+.leftaligntext {
+    display: block;
+    text-align: left;
+    }
+.centeraligntext {
+    display: block;
+    text-align: center;
+    }
+h1 {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 125%;
+    }
+.photovariables {
+	margin-right: 5px;
+	float: left;
+    }
+.bookblock {
+	position: relative;
+	margin-bottom: 80px;
+    }
+p { 
+	margin: 0px;
+	padding: 0px;   
+	text-indent: 2em;
+	} 
+

@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+	<head>
+		<meta content="isbn-000-0-000-00000-0" name="dtb:uid"/>
+		<meta content="2" name="dtb:depth"/>
+		<meta content="0" name="dtb:totalPageCount"/>
+		<meta content="0" name="dtb:maxPageNumber"/>
+	</head>
+	<docTitle>
+		<text>Your Book Title Goes in Here</text>
+	</docTitle>
+	<navMap>
+	
+		<navPoint class="chapter" id="title" playOrder="1">
+			<navLabel>
+				<text>Title Page</text>
+			</navLabel>
+			<content src="Text/title.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="copyright" playOrder="2">
+			<navLabel>
+				<text>Copyright Page</text>
+			</navLabel>
+			<content src="Text/copyright.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="toc" playOrder="3">
+			<navLabel>
+				<text>Table of Contents</text>
+			</navLabel>
+			<content src="Text/toc.xhtml"/>
+		</navPoint>
+		
+		<navPoint class="chapter" id="dedication" playOrder="4">
+			<navLabel>
+				<text>Dedication Page</text>
+			</navLabel>
+			<content src="Text/dedication.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="prologue" playOrder="5">
+			<navLabel>
+				<text>Prologue Page</text>
+			</navLabel>
+			<content src="Text/prologue.xhtml"/>
+		</navPoint>
+	
+		
+		
+		
+		<navPoint class="chapter" id="chap01" playOrder="6">
+			<navLabel>
+				<text>Chapter 1</text>
+			</navLabel>
+			<content src="Text/chap01.xhtml"/>
+		</navPoint>
+		
+		<navPoint class="chapter" id="chap02" playOrder="7">
+			<navLabel>
+				<text>Chapter 2</text>
+			</navLabel>
+			<content src="Text/chap02.xhtml"/>
+		</navPoint>
+		
+		<navPoint class="chapter" id="chap03" playOrder="8">
+			<navLabel>
+				<text>Chapter 3</text>
+			</navLabel>
+			<content src="Text/chap03.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap04" playOrder="9">
+			<navLabel>
+				<text>Chapter 4</text>
+			</navLabel>
+			<content src="Text/chap04.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap05" playOrder="10">
+			<navLabel>
+				<text>Chapter 5</text>
+			</navLabel>
+			<content src="Text/chap05.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap06" playOrder="11">
+			<navLabel>
+				<text>Chapter 6</text>
+			</navLabel>
+			<content src="Text/chap06.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap07" playOrder="12">
+			<navLabel>
+				<text>Chapter 7</text>
+			</navLabel>
+			<content src="Text/chap07.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap08" playOrder="13">
+			<navLabel>
+				<text>Chapter 8</text>
+			</navLabel>
+			<content src="Text/chap08.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap09" playOrder="14">
+			<navLabel>
+				<text>Chapter 9</text>
+			</navLabel>
+			<content src="Text/chap09.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap10" playOrder="15">
+			<navLabel>
+				<text>Chapter 10</text>
+			</navLabel>
+			<content src="Text/chap10.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap11" playOrder="16">
+			<navLabel>
+				<text>Chapter 11</text>
+			</navLabel>
+			<content src="Text/chap11.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap12" playOrder="17">
+			<navLabel>
+				<text>Chapter 12</text>
+			</navLabel>
+			<content src="Text/chap12.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap13" playOrder="18">
+			<navLabel>
+				<text>Chapter 13</text>
+			</navLabel>
+			<content src="Text/chap13.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap14" playOrder="19">
+			<navLabel>
+				<text>Chapter 14</text>
+			</navLabel>
+			<content src="Text/chap14.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap15" playOrder="20">
+			<navLabel>
+				<text>Chapter 15</text>
+			</navLabel>
+			<content src="Text/chap15.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap16" playOrder="21">
+			<navLabel>
+				<text>Chapter 16</text>
+			</navLabel>
+			<content src="Text/chap16.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap17" playOrder="22">
+			<navLabel>
+				<text>Chapter 17</text>
+			</navLabel>
+			<content src="Text/chap17.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap18" playOrder="23">
+			<navLabel>
+				<text>Chapter 18</text>
+			</navLabel>
+			<content src="Text/chap18.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap19" playOrder="24">
+			<navLabel>
+				<text>Chapter 19</text>
+			</navLabel>
+			<content src="Text/chap19.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap20" playOrder="25">
+			<navLabel>
+				<text>Chapter 20</text>
+			</navLabel>
+			<content src="Text/chap20.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap21" playOrder="26">
+			<navLabel>
+				<text>Chapter 21</text>
+			</navLabel>
+			<content src="Text/chap21.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap22" playOrder="27">
+			<navLabel>
+				<text>Chapter 22</text>
+			</navLabel>
+			<content src="Text/chap22.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap23" playOrder="28">
+			<navLabel>
+				<text>Chapter 23</text>
+			</navLabel>
+			<content src="Text/chap23.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap24" playOrder="29">
+			<navLabel>
+				<text>Chapter 24</text>
+			</navLabel>
+			<content src="Text/chap24.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap25" playOrder="30">
+			<navLabel>
+				<text>Chapter 25</text>
+			</navLabel>
+			<content src="Text/chap25.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap26" playOrder="31">
+			<navLabel>
+				<text>Chapter 26</text>
+			</navLabel>
+			<content src="Text/chap26.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap27" playOrder="32">
+			<navLabel>
+				<text>Chapter 27</text>
+			</navLabel>
+			<content src="Text/chap27.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap28" playOrder="33">
+			<navLabel>
+				<text>Chapter 28</text>
+			</navLabel>
+			<content src="Text/chap28.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap29" playOrder="34">
+			<navLabel>
+				<text>Chapter 29</text>
+			</navLabel>
+			<content src="Text/chap29.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap30" playOrder="35">
+			<navLabel>
+				<text>Chapter 30</text>
+			</navLabel>
+			<content src="Text/chap30.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap31" playOrder="36">
+			<navLabel>
+				<text>Chapter 31</text>
+			</navLabel>
+			<content src="Text/chap31.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap32" playOrder="37">
+			<navLabel>
+				<text>Chapter 32</text>
+			</navLabel>
+			<content src="Text/chap32.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap33" playOrder="38">
+			<navLabel>
+				<text>Chapter 33</text>
+			</navLabel>
+			<content src="Text/chap33.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap34" playOrder="39">
+			<navLabel>
+				<text>Chapter 34</text>
+			</navLabel>
+			<content src="Text/chap34.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap35" playOrder="40">
+			<navLabel>
+				<text>Chapter 35</text>
+			</navLabel>
+			<content src="Text/chap35.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap36" playOrder="41">
+			<navLabel>
+				<text>Chapter 36</text>
+			</navLabel>
+			<content src="Text/chap36.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap37" playOrder="42">
+			<navLabel>
+				<text>Chapter 37</text>
+			</navLabel>
+			<content src="Text/chap37.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap38" playOrder="43">
+			<navLabel>
+				<text>Chapter 38</text>
+			</navLabel>
+			<content src="Text/chap38.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap39" playOrder="44">
+			<navLabel>
+				<text>Chapter 39</text>
+			</navLabel>
+			<content src="Text/chap39.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap40" playOrder="45">
+			<navLabel>
+				<text>Chapter 40</text>
+			</navLabel>
+			<content src="Text/chap40.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap41" playOrder="46">
+			<navLabel>
+				<text>Chapter 41</text>
+			</navLabel>
+			<content src="Text/chap41.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap42" playOrder="47">
+			<navLabel>
+				<text>Chapter 42</text>
+			</navLabel>
+			<content src="Text/chap42.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap43" playOrder="48">
+			<navLabel>
+				<text>Chapter 43</text>
+			</navLabel>
+			<content src="Text/chap43.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap44" playOrder="49">
+			<navLabel>
+				<text>Chapter 44</text>
+			</navLabel>
+			<content src="Text/chap44.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap45" playOrder="50">
+			<navLabel>
+				<text>Chapter 45</text>
+			</navLabel>
+			<content src="Text/chap45.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap46" playOrder="51">
+			<navLabel>
+				<text>Chapter 46</text>
+			</navLabel>
+			<content src="Text/chap46.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap47" playOrder="52">
+			<navLabel>
+				<text>Chapter 47</text>
+			</navLabel>
+			<content src="Text/chap47.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap48" playOrder="53">
+			<navLabel>
+				<text>Chapter 48</text>
+			</navLabel>
+			<content src="Text/chap48.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap49" playOrder="54">
+			<navLabel>
+				<text>Chapter 49</text>
+			</navLabel>
+			<content src="Text/chap49.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap50" playOrder="55">
+			<navLabel>
+				<text>Chapter 50</text>
+			</navLabel>
+			<content src="Text/chap50.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chap51" playOrder="56">
+			<navLabel>
+				<text>Chapter 51</text>
+			</navLabel>
+			<content src="Text/chap51.xhtml"/>
+		</navPoint>
+
+
+		<navPoint class="chapter" id="epilogue" playOrder="57">
+			<navLabel>
+				<text>Epilogue</text>
+			</navLabel>
+			<content src="Text/epilogue.xhtml"/>
+		</navPoint>
+		
+		
+		<navPoint class="chapter" id="biography" playOrder="58">
+			<navLabel>
+				<text>Biography</text>
+			</navLabel>
+			<content src="Text/biography.xhtml"/>
+		</navPoint>
+		
+
+		<navPoint class="chapter" id="colophon" playOrder="59">
+			<navLabel>
+				<text>Colophon</text>
+			</navLabel>
+			<content src="Text/colophon.xhtml"/>
+		</navPoint>
+
+		
+		
+		<navPoint class="chapter" id="backcover" playOrder="60">
+			<navLabel>
+				<text>Backcover</text>
+			</navLabel>
+			<content src="Text/backcover.xhtml"/>
+		</navPoint>
+		
+	</navMap>
+</ncx>

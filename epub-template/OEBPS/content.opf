@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+        <dc:title>Your Book Title Goes in Here</dc:title>
+		
+        <dc:language>en</dc:language>
+		
+        <dc:identifier id="uuid_id" opf:scheme="uuid">isbn-000-0-000-00000-0</dc:identifier>
+        <dc:creator>Your Author Name Here</dc:creator>
+        <dc:publisher>Your Publisher Name Here</dc:publisher>
+        <dc:date>2013-08-17</dc:date>
+		
+        <meta name="cover" content="my-cover-image"/>
+
+    </metadata>
+    <manifest>
+        <item href="Text/bookcover.xhtml" id="bookcover" media-type="application/xhtml+xml"/>
+        <item href="Text/title.xhtml" id="title" media-type="application/xhtml+xml"/>
+        <item href="Text/copyright.xhtml" id="copyright" media-type="application/xhtml+xml"/>
+        <item href="Text/toc.xhtml" id="toc" media-type="application/xhtml+xml"/>
+        <item href="Text/dedication.xhtml" id="dedication" media-type="application/xhtml+xml"/>
+        <item href="Text/prologue.xhtml" id="prologue" media-type="application/xhtml+xml"/>
+        <item href="Text/chap01.xhtml" id="chap01" media-type="application/xhtml+xml"/>
+        <item href="Text/chap02.xhtml" id="chap02" media-type="application/xhtml+xml"/>
+        <item href="Text/chap03.xhtml" id="chap03" media-type="application/xhtml+xml"/>
+        <item href="Text/chap04.xhtml" id="chap04" media-type="application/xhtml+xml"/>
+        <item href="Text/chap05.xhtml" id="chap05" media-type="application/xhtml+xml"/>
+        <item href="Text/chap06.xhtml" id="chap06" media-type="application/xhtml+xml"/>
+        <item href="Text/chap07.xhtml" id="chap07" media-type="application/xhtml+xml"/>
+        <item href="Text/chap08.xhtml" id="chap08" media-type="application/xhtml+xml"/>
+        <item href="Text/chap09.xhtml" id="chap09" media-type="application/xhtml+xml"/>
+        <item href="Text/chap10.xhtml" id="chap10" media-type="application/xhtml+xml"/>
+        <item href="Text/chap11.xhtml" id="chap11" media-type="application/xhtml+xml"/>
+        <item href="Text/chap12.xhtml" id="chap12" media-type="application/xhtml+xml"/>
+        <item href="Text/chap13.xhtml" id="chap13" media-type="application/xhtml+xml"/>
+        <item href="Text/chap14.xhtml" id="chap14" media-type="application/xhtml+xml"/>
+        <item href="Text/chap15.xhtml" id="chap15" media-type="application/xhtml+xml"/>
+        <item href="Text/chap16.xhtml" id="chap16" media-type="application/xhtml+xml"/>
+        <item href="Text/chap17.xhtml" id="chap17" media-type="application/xhtml+xml"/>
+        <item href="Text/chap18.xhtml" id="chap18" media-type="application/xhtml+xml"/>
+        <item href="Text/chap19.xhtml" id="chap19" media-type="application/xhtml+xml"/>
+        <item href="Text/chap20.xhtml" id="chap20" media-type="application/xhtml+xml"/>
+        <item href="Text/chap21.xhtml" id="chap21" media-type="application/xhtml+xml"/>
+        <item href="Text/chap22.xhtml" id="chap22" media-type="application/xhtml+xml"/>
+        <item href="Text/chap23.xhtml" id="chap23" media-type="application/xhtml+xml"/>
+        <item href="Text/chap24.xhtml" id="chap24" media-type="application/xhtml+xml"/>
+        <item href="Text/chap25.xhtml" id="chap25" media-type="application/xhtml+xml"/>
+        <item href="Text/chap26.xhtml" id="chap26" media-type="application/xhtml+xml"/>
+        <item href="Text/chap27.xhtml" id="chap27" media-type="application/xhtml+xml"/>
+        <item href="Text/chap28.xhtml" id="chap28" media-type="application/xhtml+xml"/>
+        <item href="Text/chap29.xhtml" id="chap29" media-type="application/xhtml+xml"/>
+        <item href="Text/chap30.xhtml" id="chap30" media-type="application/xhtml+xml"/>
+        <item href="Text/chap31.xhtml" id="chap31" media-type="application/xhtml+xml"/>
+        <item href="Text/chap32.xhtml" id="chap32" media-type="application/xhtml+xml"/>
+        <item href="Text/chap33.xhtml" id="chap33" media-type="application/xhtml+xml"/>
+        <item href="Text/chap34.xhtml" id="chap34" media-type="application/xhtml+xml"/>
+        <item href="Text/chap35.xhtml" id="chap35" media-type="application/xhtml+xml"/>
+        <item href="Text/chap36.xhtml" id="chap36" media-type="application/xhtml+xml"/>
+        <item href="Text/chap37.xhtml" id="chap37" media-type="application/xhtml+xml"/>
+        <item href="Text/chap38.xhtml" id="chap38" media-type="application/xhtml+xml"/>
+        <item href="Text/chap39.xhtml" id="chap39" media-type="application/xhtml+xml"/>
+        <item href="Text/chap40.xhtml" id="chap40" media-type="application/xhtml+xml"/>
+        <item href="Text/chap41.xhtml" id="chap41" media-type="application/xhtml+xml"/>
+        <item href="Text/chap42.xhtml" id="chap42" media-type="application/xhtml+xml"/>
+        <item href="Text/chap43.xhtml" id="chap43" media-type="application/xhtml+xml"/>
+        <item href="Text/chap44.xhtml" id="chap44" media-type="application/xhtml+xml"/>
+        <item href="Text/chap45.xhtml" id="chap45" media-type="application/xhtml+xml"/>
+        <item href="Text/chap46.xhtml" id="chap46" media-type="application/xhtml+xml"/>
+        <item href="Text/chap47.xhtml" id="chap47" media-type="application/xhtml+xml"/>
+        <item href="Text/chap48.xhtml" id="chap48" media-type="application/xhtml+xml"/>
+        <item href="Text/chap49.xhtml" id="chap49" media-type="application/xhtml+xml"/>
+        <item href="Text/chap50.xhtml" id="chap50" media-type="application/xhtml+xml"/>
+        <item href="Text/chap51.xhtml" id="chap51" media-type="application/xhtml+xml"/>
+        <item href="Text/epilogue.xhtml" id="epilogue" media-type="application/xhtml+xml"/>
+        <item href="Text/biography.xhtml" id="biography" media-type="application/xhtml+xml"/>
+        <item href="Text/colophon.xhtml" id="colophon" media-type="application/xhtml+xml"/>
+        <item href="Text/backcover.xhtml" id="backcover" media-type="application/xhtml+xml"/>
+		
+        <item href="Images/author.jpg" id="my-author-image" media-type="image/jpeg"/>
+        <item href="Images/cover.jpg" id="my-cover-image" media-type="image/jpeg"/>
+        <item href="Images/backcover.jpg" id="backcover-image" media-type="image/jpeg"/>
+        <item href="Styles/stylesheet.css" id="cascadingstylesheet" media-type="text/css"/>
+        <item href="toc.ncx" id="tableofcontents" media-type="application/x-dtbncx+xml"/>
+		
+    </manifest>
+    <spine toc="tableofcontents">
+        <itemref idref="bookcover" linear="no"/>
+        <itemref idref="title"/>
+        <itemref idref="copyright"/>
+        <itemref idref="toc"/>
+        <itemref idref="dedication"/>
+        <itemref idref="prologue"/>
+        <itemref idref="chap01"/>
+        <itemref idref="chap02"/>
+        <itemref idref="chap03"/>
+        <itemref idref="chap04"/>
+        <itemref idref="chap05"/>
+        <itemref idref="chap06"/>
+        <itemref idref="chap07"/>
+        <itemref idref="chap08"/>
+        <itemref idref="chap09"/>
+        <itemref idref="chap10"/>
+        <itemref idref="chap11"/>
+        <itemref idref="chap12"/>
+        <itemref idref="chap13"/>
+        <itemref idref="chap14"/>
+        <itemref idref="chap15"/>
+        <itemref idref="chap16"/>
+        <itemref idref="chap17"/>
+        <itemref idref="chap18"/>
+        <itemref idref="chap19"/>
+        <itemref idref="chap20"/>
+        <itemref idref="chap21"/>
+        <itemref idref="chap22"/>
+        <itemref idref="chap23"/>
+        <itemref idref="chap24"/>
+        <itemref idref="chap25"/>
+        <itemref idref="chap26"/>
+        <itemref idref="chap27"/>
+        <itemref idref="chap28"/>
+        <itemref idref="chap29"/>
+        <itemref idref="chap30"/>
+        <itemref idref="chap31"/>
+        <itemref idref="chap32"/>
+        <itemref idref="chap33"/>
+        <itemref idref="chap34"/>
+        <itemref idref="chap35"/>
+        <itemref idref="chap36"/>
+        <itemref idref="chap37"/>
+        <itemref idref="chap38"/>
+        <itemref idref="chap39"/>
+        <itemref idref="chap40"/>
+        <itemref idref="chap41"/>
+        <itemref idref="chap42"/>
+        <itemref idref="chap43"/>
+        <itemref idref="chap44"/>
+        <itemref idref="chap45"/>
+        <itemref idref="chap46"/>
+        <itemref idref="chap47"/>
+        <itemref idref="chap48"/>
+        <itemref idref="chap49"/>
+        <itemref idref="chap50"/>
+        <itemref idref="chap51"/>
+        <itemref idref="epilogue"/>
+        <itemref idref="biography"/>
+        <itemref idref="colophon"/>
+        <itemref idref="backcover"/>
+    </spine>
+    <guide>
+        <reference href="Text/bookcover.xhtml" title="Cover Image" type="cover"/>
+        <reference href="Text/toc.xhtml" title="Table Of Contents" type="toc"/>
+    </guide>
+</package>
