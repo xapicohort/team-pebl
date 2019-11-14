@@ -1,0 +1,273 @@
+.pebl__discussion--lightbox {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    background-color: var(--light-background);
+    z-index: 5000;
+    box-shadow: var(--elevation-2);
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+.pebl__discussion--lightbox__textarea {
+    display: block;
+    box-sizing: border-box;
+    width: calc(100% - 1em);
+    max-width: 700px;
+    word-wrap: break-word;
+    resize: none;
+    margin: .5em;
+    color: #222;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    webkit-border-radius: 8px;
+    border-radius: 8px;
+    border: .1em solid var(--secondary-grey);
+}
+
+.pebl__discussion--lightbox__content {
+    display: flex;
+    background-color: var(--light-background);
+    flex-direction: column;
+    flex-grow: 1;
+    /* for Firefox */
+    min-height: 0;
+}
+
+.pebl__discussion--lightbox__header {
+    display: flex;
+    background-color: var(--primary-color-light);
+    justify-content: space-between;
+    align-items: center;
+    color: var(--dark-font);
+    padding: 1em;
+    font-size: 2rem;
+    font-family: var(--secondary-font-family);
+}
+
+.discussionPromptContainer {
+    font-weight: bolder;
+}
+
+.discussionLightboxCloseButtonContainer {
+    width: 1em;
+    height: 1em;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.discussionInputBody {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    min-height: 135px;
+}
+
+.discussionButtonContainer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.discussionResponseBody {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    /* for Firefox */
+    min-height: 0;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    font-family: "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+    clear: both;
+    margin: 1em;
+}
+
+.discussionResponseBody .response {
+    position: relative;
+    padding: 1em 1em 1em 1em;
+    margin: 0;
+    background: none;
+}
+
+.discussionResponseBody .response i {
+    margin-left: -1.5em;
+}
+
+.discussionResponseBody .your.response .userId {
+    color: var(--primary-color);
+    font-weight: 600;
+
+}
+
+.discussionResponseBody .response .userId {
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.discussionResponseBody .response .timestamp {
+    margin-left: .5em;
+    float:right;
+    /*    letter-spacing: .5em;*/
+    font-size: .8em;
+    color: var(--dark-font);
+}
+
+.discussionResponseBody .response .message {
+    font-style: normal;
+    font-weight: normal;
+    margin: .5em 0em 1em;
+}
+
+.discussionSubmitButton {
+    cursor: pointer;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    text-shadow: 1px 1px 3px #666666;
+    padding: .5rem 2rem .5rem 2rem;
+    text-decoration: none;
+    margin: 0rem 1em 1em 0em;
+    border: none;
+    background: var(--primary-color-dark);
+    color: #ffffff;
+}
+
+/*OLD STUFF STARTS HERE*/
+.replyContainer {
+    display: block;
+}
+
+.replyTextArea {
+    flex-shrink: 0;
+    font-size: 1em;
+    width: calc(100% - 32px);
+    padding: 1em;
+    border: .1em solid var(--secondary-grey);
+    border-radius: var(--medium-radius);
+    margin-bottom: 1em;
+    height: 2em;
+}
+
+.messageReplyButton {
+    color:var(--primary-color-dark);
+    cursor: pointer;
+    float: right;
+    text-decoration: underline;
+}
+
+.callout {
+    padding: 1em;
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgb(240, 240, 240);
+    border-left: 10px solid var(--primary-color-dark);
+    margin: 1.5em 10px;
+    clear: both;
+    width: calc(100% - 3.5em);
+}
+
+.callout::after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+button.replySubmitButton {
+    cursor: pointer;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    text-shadow: 1px 1px 3px #666666;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 0em 1em 1em 1em;
+    border: none;
+    color: #ffffff;
+    background:var(--primary-color-dark);
+    float: right;
+}
+
+button.replyCloseButton {
+    cursor: pointer;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    text-shadow: 1px 1px 3px #666666;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 0em 1em 1em 1em;
+    float: right;
+    border: none;
+    color: #ffffff;
+    background: gray;
+}
+
+.chatReplies {
+    padding-top: 2em;
+    padding-left: .5rem;
+}
+.chatReplies>div.yourResponse,
+.chatReplies>div.response {
+    border-left: 2px solid var(--secondary-grey);
+
+}
+
+.callout>button.chat {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2em;
+    background-image: none;
+    background-color: var(--primary-color-dark);
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 0;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 1em 2em;
+    text-shadow: none;
+    transition: background 0.2s;
+    border-width: 0;
+}
+
+.callout p {
+    font-weight: bolder;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+button.chat>i {
+    font-size: 2em;
+    margin-right: 0.5em;
+}
+
+.messageDeleteButtonWrapper {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+.messageDeleteButton {
+    font-size: 30px;
+    color: red;
+}

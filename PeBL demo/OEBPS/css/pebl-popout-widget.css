@@ -1,0 +1,124 @@
+/* Pebl Popout Wrapper */
+.pebl__popout {
+    box-sizing: border-box;
+    float: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+    margin: .5em auto 0rem auto;
+    background-color: var(--primary-color-dark);
+    border-radius: var(--border-radius);
+}
+
+.pebl__popout.inactive {
+    background-color: var(--primary-color-dark);
+    box-shadow: var(--elevated-two);
+}
+
+.pebl__popout.active {
+    background-color: var(--primary-color-light);
+}
+
+.pebl__popout.active .pebl__popout--popout-header h4 {
+    color: var(--dark-font);
+}
+
+/* on inactive handle content also */
+.pebl__popout.inactive .pebl__popout--popout-content {
+    display: none;
+}
+
+/* on active handle content also */
+.pebl__popout.active .pebl__popout--popout-content {
+    width: 100%;
+    display: block;
+    padding: .5rem;
+    clear: both;
+    background-color: var(--light-background);
+}
+
+.pebl__popout--popout-title {
+    padding: 0px 8px;
+}
+
+.pebl__popout.inactive .pebl__popout--popout-title {
+    width: 100%;
+    display: block;
+    background-color: var(--primary-color-dark);
+}
+
+.pebl__popout.active .pebl__popout--popout-title {
+    width: 100%;
+    display: block;
+    background-color: var(--primary-color-light);
+}
+
+.pebl__popout--popout-header {
+    width: calc(100% - 60px);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pebl__popout--popout-header h4 {
+    color: white;
+}
+
+.pebl__popout--popout-icon {
+    font-size: 24px;
+    width: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+
+.pebl__popout--popout-icon i {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.pebl__popout.active .pebl__popout--popout-icon {
+    color: var(--dark-font);
+}
+
+.pebl__popout.inactive .pebl__popout--popout-icon {
+    color: var(--light-font);
+}
+
+.pebl__popout--.popout-content {
+    padding: 1em;
+    border-left: var(--promary-color) solid var(--side-border-size);
+    background-size: 30%;
+    line-height: 1.3em;
+    background-color: var(--light-background);
+}
+
+.popout-content a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.pebl__popout.popout-content h4 {
+    font-family: "Helvetica Neue", sans-serif;
+    margin-bottom: 0.5em;
+    color: #1a569c;
+}
+
+.pebl__popout.popout-content .close {
+    float: right;
+    background: url(../image/icon-speech1.png) center no-repeat;
+    background-size: 30px;
+    cursor: pointer;
+}
+
+.pebl__popout.popout-content .close:hover {
+    color: #fff;
+}
+
+.pebl__popout.inactive .popout-content {
+    background-color: var(--primary-color-light);
+}
+
+.pebl__popout.active .popout-content {
+    display: block !important;
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+	<head>
+		<meta content="isbn-000-0-000-00000-0" name="dtb:uid"/>
+		<meta content="2" name="dtb:depth"/>
+		<meta content="0" name="dtb:totalPageCount"/>
+		<meta content="0" name="dtb:maxPageNumber"/>
+	</head>
+	<docTitle>
+		<text>Getting Started with PeBL Extensions</text>
+	</docTitle>
+	<navMap>
+	
+		<navPoint class="chapter" id="title" playOrder="1">
+			<navLabel>
+				<text>Title Page</text>
+			</navLabel>
+			<content src="title.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="toc" playOrder="3">
+			<navLabel>
+				<text>Table of Contents</text>
+			</navLabel>
+			<content src="toc.xhtml"/>
+		</navPoint>	
+		
+		<navPoint class="chapter" id="chap01" playOrder="6">
+			<navLabel>
+				<text>Chapter 1</text>
+			</navLabel>
+			<content src="chap01.xhtml"/>
+		</navPoint>
+		
+	</navMap>
+</ncx>
