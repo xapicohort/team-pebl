@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
     <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	
+
         <dc:title>PeBL Demo</dc:title>
-		
+
         <dc:language>en</dc:language>
-		
+
         <dc:identifier id="uuid_id" opf:scheme="uuid">isbn-000-0-000-00000-0</dc:identifier>
         <dc:creator>PeBL xAPI Cohort</dc:creator>
         <dc:publisher>xAPI Cohort</dc:publisher>
         <dc:date>2019-11-42</dc:date>
-		
+
         <meta name="cover" content="my-cover-image"/>
 
     </metadata>
@@ -19,19 +19,21 @@
         <item href="title.xhtml" id="title" media-type="application/xhtml+xml"/>
         <item href="toc.xhtml" id="toc" media-type="application/xhtml+xml"/>
         <item href="chap01.xhtml" id="chap01" media-type="application/xhtml+xml"/>
-		
+        <item href="chap02.xhtml" id="chap02" media-type="application/xhtml+xml"/>
+
         <item href="Images/author.jpg" id="my-author-image" media-type="image/jpeg"/>
         <item href="Images/cover.jpg" id="my-cover-image" media-type="image/jpeg"/>
         <item href="Images/backcover.jpg" id="backcover-image" media-type="image/jpeg"/>
         <item href="Styles/stylesheet.css" id="cascadingstylesheet" media-type="text/css"/>
         <item href="toc.ncx" id="tableofcontents" media-type="application/x-dtbncx+xml"/>
-		
+
     </manifest>
     <spine toc="tableofcontents">
         <itemref idref="bookcover" linear="no"/>
         <itemref idref="title"/>
         <itemref idref="toc"/>
         <itemref idref="chap01"/>
+        <itemref idref="chap02"/>
     </spine>
     <guide>
         <reference href="bookcover.xhtml" title="Cover Image" type="cover"/>

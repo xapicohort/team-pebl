@@ -9,7 +9,7 @@
 		<text>Getting Started with PeBL Extensions</text>
 	</docTitle>
 	<navMap>
-	
+
 		<navPoint class="chapter" id="title" playOrder="1">
 			<navLabel>
 				<text>Title Page</text>
@@ -22,14 +22,21 @@
 				<text>Table of Contents</text>
 			</navLabel>
 			<content src="toc.xhtml"/>
-		</navPoint>	
-		
+		</navPoint>
+
 		<navPoint class="chapter" id="chap01" playOrder="6">
 			<navLabel>
 				<text>Chapter 1</text>
 			</navLabel>
 			<content src="chap01.xhtml"/>
 		</navPoint>
-		
+
+		<navPoint class="chapter" id="chap02" playOrder="7">
+			<navLabel>
+				<text>Chapter 2</text>
+			</navLabel>
+			<content src="chap02.xhtml"/>
+		</navPoint>
+
 	</navMap>
 </ncx>
