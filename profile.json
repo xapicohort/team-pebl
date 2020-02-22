@@ -1,0 +1,117 @@
+{
+   "@context": "https://w3id.org/xapi/profiles/context",
+    "id": "https://w3id.org/xapi/PEBLProfile",
+    "type": "Profile",
+    "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+    "prefLabel": {
+        "en": "Profile for PeBL e-book reader"
+    },
+    "definition": {
+        "en": "Governance file for PeBL e-book reader"
+    },
+    "seeAlso": "https://github.com/xapicohort/team-pebl.git",
+    "versions": [
+        {
+            "id": "https://w3id.org/xapi/PeBLprofile/v1.0",
+            "generatedAtTime": "2020-02-21T09:00:00Z",
+            "wasRevisionOf": ["https://w3id.org/xapi/"]
+        }
+    ],
+    "author": {
+        "type": "Pebl xAPI Cohort",
+        "name": "Brian Floyd"
+    },
+    "concepts": [
+      {
+        "id": "http://id.tincanapi.com/activitytype/book",
+        "inScheme": "https://w3id.org/xapi/iPKprofile/v1.0",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A PeBl ebook"
+        },
+        "prefLabel": {
+          "en": "Ebook"
+        }
+      },
+  {
+      "id": "https://w3id.org/xapi/profilename/extensions/extensionname",
+      "inScheme": "https://w3id.org/xapi/newprofilename",
+      "type": "ActivityExtension",
+      "prefLabel": {
+          "en": "Title of Activity Extension"
+      },
+      "definition": {
+          "en": "Full description or purpose of the extension."
+      },
+      "inlineSchema": "{}"
+  }
+,
+  {
+      "id": "https://w3id.org/xapi/profilename/extensions/extensionname",
+      "inScheme": "https://w3id.org/xapi/newprofilename",
+      "type": "ContextExtension",
+      "prefLabel": {
+          "en": "Title of Context Extension"
+      },
+      "definition": {
+          "en": "Full description or purpose of the extension."
+      },
+      "inlineSchema": "{}"
+  },
+  {
+      "id": "https://w3id.org/xapi/profilename/extensions/extensionname",
+      "inScheme": "https://w3id.org/xapi/newprofilename",
+      "type": "ResultExtension",
+      "prefLabel": {
+          "en": "Title of Result Extension"
+      },
+      "definition": {
+          "en": "Full description or purpose of the extension."
+      },
+      "inlineSchema": "{}"
+  }
+],
+    "templates": [
+        {
+            "id": "https://w3id.org/xapi/newprofilename#templatename",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/newprofilename",
+            "prefLabel": {
+                "en": "Restrictions for all of this profile's Statements"
+            },
+            "definition":{
+                "en":""
+            },
+            "verb": "",
+            "rules": [
+                {
+                    "location": "$.id",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.timestamp",
+                    "presence": "included",
+                    "scopeNote": {
+                        "en":""
+                    }
+                }
+            ]
+        }],
+    "patterns": [
+        {
+            "id": "https://w3id.org/xapi/newprofilename5#patternname",
+            "type": "Pattern",
+            "primary": true,
+            "prefLabel": {
+                "en": "Title of Pattern"
+            },
+            "definition": {
+                "en": "Provide a description here."
+            },
+            "inScheme": "https://w3id.org/xapi/newprofilename5",
+            "sequence": ["", ""]
+        }
+
+
+    ]
+}
